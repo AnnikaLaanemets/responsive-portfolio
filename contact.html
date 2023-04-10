@@ -26,7 +26,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Contact me</title>
+    <title>Contact</title>
   </head>
   <body class="contact-page">
     <nav class="navbar navbar-expand-lg bg-body-transplanet">
@@ -45,20 +45,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto fs-3">
             <li class="nav-item me-2">
-              <a class="nav-link text-white-50" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item me-2">
               <a class="nav-link text-white-50" href="projects.html"
                 >Projects</a
               >
             </li>
-
+            <li class="nav-item me-2">
+              <a class="nav-link text-white-50" href="index.html">Home</a>
+            </li>
             <li class="nav-item me-2">
               <a
                 class="nav-link active text-light"
                 aria-current="page"
-                href="index.html"
-                >Home</a
+                href="contact.html"
+                >Contact</a
               >
             </li>
           </ul>
@@ -66,19 +65,19 @@
       </div>
     </nav>
     <div><strong>PORTFOLIO</strong></div>
-    <h1 class="text-center m-3">Let`s get in touch</h1>
+    <h1 class="text-center m-5">Let`s get in touch</h1>
     <br />
     <form
       action="https://formspree.io/f/xgebpeyp"
       method="POST"
-      class="border p-3 rounded mb-3"
+      class="border rounded"
     >
-      <div class="m-4">
+      <div class="m-3">
         <label class="form-label fs-2"> Your email: </label>
         <input
           type="email"
           name="_replyto"
-          class="form-control"
+          class="form-control d-flex"
           required=""
           autofocus=""
         />
@@ -88,31 +87,45 @@
         <textarea name="message" class="form-control" required=""></textarea>
       </div>
 
-      <button type="submit" class="btn btn-success fs-2 ps-5 pe-5 m-4">
-        Send
-      </button>
+      <button type="submit" class="btn btn-success fs-2">Send</button>
     </form>
     <br />
     <footer class="m-3">
-      <a href="https://www.facebook.com/annika.laanemets" target="_blank"
-        ><i class="fa-brands fa-facebook fa-2xl me-3" style="color: #4b2d51"></i
+      <a
+        href="https://www.facebook.com/annika.laanemets"
+        target="_blank"
+        title="Facebook profile"
+        ><i class="fa-brands fa-facebook"></i
       ></a>
-      <a href="https://m.me/annika.laanemets" target="_blank"
-        ><i
-          class="fa-brands fa-facebook-messenger fa-2xl me-3"
-          style="color: #4b2d51"
-        >
-        </i
+      <a
+        href="https://m.me/annika.laanemets"
+        target="_blank"
+        title="Send message through Messenger"
+        ><i class="fa-brands fa-facebook-messenger"> </i
       ></a>
-      <a href="https://t.me/AnnikaLaa" target="_blank"
-        ><i class="fa-brands fa-telegram fa-2xl me-3" style="color: #4b2d51"></i
+      <a
+        href="https://t.me/AnnikaLaa"
+        target="_blank"
+        title="Send message through Telegram"
+        ><i class="fa-brands fa-telegram"></i
       ></a>
-      <a href="https://github.com/AnnikaLaanemets" target="_blank"
-        ><i class="fa-brands fa-github fa-2xl me-3" style="color: #4b2d51"></i
+      <a
+        href="https://github.com/AnnikaLaanemets"
+        target="_blank"
+        title="Github profile"
+        ><i class="fa-brands fa-github"></i
       ></a>
       <a href="mailto:annika0096@gmail.com"
-        ><i class="fa-solid fa-at fa-2xl" style="color: #4b2d51"></i
+        ><i class="fa-brands fa-at" title="Send message through gmail"></i
       ></a>
     </footer>
+    <span
+      ><a
+        href="https://github.com/AnnikaLaanemets/responsive-portfolio"
+        target="blank"
+        title="link to website source code on Github"
+        >Open source website by Annika</a
+      ></span
+    >
   </body>
 </html>

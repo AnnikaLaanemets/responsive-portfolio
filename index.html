@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta name="description" content="Website about a hobby coder" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,13 +28,13 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>AL</title>
+    <title>About me</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-transplanet">
       <div class="container-fluid">
         <button
-          class="navbar-toggler ms-auto"
+          class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -54,7 +54,6 @@
                 >Projects</a
               >
             </li>
-
             <li class="nav-item me-2">
               <a
                 class="nav-link active text-light"
@@ -68,10 +67,9 @@
       </div>
     </nav>
     <div><strong>PORTFOLIO</strong></div>
-
     <br />
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <h1>Hi, I am Annika</h1>
         <p>
           I am a microbiologist from Estonia. I graduated with a degree in
@@ -83,21 +81,21 @@
         </p>
 
         <div class="row mt-5">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <a
               id="work-button"
               href="projects.html"
-              class="btn btn-success btn-lg ps-4 pe-4"
-              style="--bs-btn-font-size: 24px"
+              class="btn btn-success btn-lg ps-5 pe-5"
+              title="link to projects page"
               >My work</a
             >
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <a
               id="contact-button"
               href="contact.html"
-              class="btn btn-outline-success btn-lg"
-              style="--bs-btn-font-size: 24px"
+              class="btn btn-outline-success btn-lg ps-4 pe-4"
+              title="link to contact page"
             >
               Contact me
             </a>
@@ -105,33 +103,52 @@
         </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <div id="photo">
-          <img id="portfolio-photo" src="images/photo.jpg" width="450px" />
+          <img
+            id="portfolio-photo"
+            src="images/photo3.jpg"
+            alt="Portfolio photo"
+          />
         </div>
       </div>
     </div>
-
-    <footer class="m-3">
-      <a href="https://www.facebook.com/annika.laanemets" target="_blank"
-        ><i class="fa-brands fa-facebook fa-2xl me-3" style="color: #4b2d51"></i
+    <footer class="m-2">
+      <a
+        href="https://www.facebook.com/annika.laanemets"
+        target="_blank"
+        title="Facebook profile"
+        ><i class="fa-brands fa-facebook"></i
       ></a>
-      <a href="https://m.me/annika.laanemets" target="_blank"
-        ><i
-          class="fa-brands fa-facebook-messenger fa-2xl me-3"
-          style="color: #4b2d51"
-        >
-        </i
+      <a
+        href="https://m.me/annika.laanemets"
+        target="_blank"
+        title="Send message through Messenger"
+        ><i class="fa-brands fa-facebook-messenger"> </i
       ></a>
-      <a href="https://t.me/AnnikaLaa" target="_blank"
-        ><i class="fa-brands fa-telegram fa-2xl me-3" style="color: #4b2d51"></i
+      <a
+        href="https://t.me/AnnikaLaa"
+        target="_blank"
+        title="Send message through Telegram"
+        ><i class="fa-brands fa-telegram"></i
       ></a>
-      <a href="https://github.com/AnnikaLaanemets" target="_blank"
-        ><i class="fa-brands fa-github fa-2xl me-3" style="color: #4b2d51"></i
+      <a
+        href="https://github.com/AnnikaLaanemets"
+        target="_blank"
+        title="Github profile"
+        ><i class="fa-brands fa-github"></i
       ></a>
       <a href="mailto:annika0096@gmail.com"
-        ><i class="fa-solid fa-at fa-2xl" style="color: #4b2d51"></i
+        ><i class="fa-brands fa-at" title="Send message through gmail"></i
       ></a>
     </footer>
+    <span
+      ><a
+        href="https://github.com/AnnikaLaanemets/responsive-portfolio"
+        target="blank"
+        title="link to website source code on Github"
+        >Open source website by Annika</a
+      ></span
+    >
   </body>
 </html>
