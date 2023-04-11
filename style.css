@@ -30,6 +30,10 @@ body {
   max-width: 100%;
 }
 
+.row {
+  margin: 0;
+}
+
 nav {
   width: 50%;
   float: right;
