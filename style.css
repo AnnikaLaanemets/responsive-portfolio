@@ -7,15 +7,15 @@
 body {
   background: linear-gradient(
     90deg,
-    rgb(255, 255, 240) 58%,
-    rgb(158, 204, 164) 58%,
-    rgb(158, 204, 164) 59%,
     rgb(255, 255, 240) 59%,
-    rgb(255, 255, 240) 62%,
-    rgb(158, 204, 164) 62%,
+    rgb(158, 204, 164) 59%,
+    rgb(158, 204, 164) 60%,
+    rgb(255, 255, 240) 60%,
+    rgb(255, 255, 240) 63%,
+    rgb(158, 204, 164) 63%,
     #198754 102%
   );
-  font-family: Clara;
+  font-family: "Clara", sans-serif;
 }
 
 .project-page {
@@ -49,12 +49,12 @@ h1 {
 
 h2 {
   font-family: "Nunito", sans-serif;
-  font-size: 48px;
-  margin: 20px;
+  font-size: 46px;
+  padding: 20px;
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0.5);
   margin: 20px;
 }
@@ -74,13 +74,8 @@ form {
   margin: 0 auto;
 }
 
-button {
-  width: 200px;
-  margin: 30px;
-}
-
 #work-button {
-  margin-inline-start: 90px;
+  margin-inline-start: 80px;
   font-size: 24px;
   box-shadow: 11px 18px 58px 15px rgba(31, 111, 72, 0.2);
 }
@@ -90,7 +85,7 @@ button {
 }
 
 #portfolio-photo {
-  width: 500px;
+  width: 530px;
   margin: 30px auto;
   margin-top: 10px;
   border-radius: 16px;
@@ -113,6 +108,7 @@ footer {
 
 span {
   margin-inline-start: 42%;
+  margin-top: 30px;
 }
 
 span a {
@@ -153,10 +149,11 @@ img:hover {
 
   h3 {
     font-size: 22px;
+    margin-bottom: 20px;
   }
 
   p {
-    padding: 20px;
+    padding: 25px;
   }
 
   #portfolio-photo {
@@ -164,6 +161,7 @@ img:hover {
   }
   img {
     display: block;
+    margin: 0;
   }
   #work-button,
   #contact-button {
@@ -178,6 +176,6 @@ img:hover {
     padding: 0;
   }
   span {
-    margin-inline-start: 5%;
+    margin-inline-start: 15%;
   }
 }
