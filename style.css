@@ -26,6 +26,10 @@ body {
   background: var(--gradient);
 }
 
+.container {
+  max-width: 100%;
+}
+
 nav {
   width: 50%;
   float: right;
@@ -36,14 +40,14 @@ strong {
   text-shadow: 9px 9px 4px rgba(75, 45, 81, 0.5);
   font-size: 52px;
   padding: 8px;
-  margin: 18px;
+  margin: 2%;
 }
 
 h1 {
   font-family: "Nunito", sans-serif;
   font-size: 46px;
   padding: 7px;
-  margin: 16px;
+  margin: 3%;
   margin-inline-start: 13%;
 }
 
@@ -56,10 +60,9 @@ h2 {
 h3 {
   font-size: 30px;
   color: rgba(0, 0, 0, 0.5);
-  margin: 20px;
+  padding: 20px;
 }
 p {
-  max-width: 700px;
   font-size: 22px;
   line-height: 1.6;
   padding: 5px 60px;
@@ -75,19 +78,19 @@ form {
 }
 
 #work-button {
-  margin-inline-start: 80px;
+  margin-inline-start: 20%;
   font-size: 24px;
   box-shadow: 11px 18px 58px 15px rgba(31, 111, 72, 0.2);
 }
 #contact-button {
-  margin-inline-start: 30px;
+  margin-inline-start: 20%;
   font-size: 24px;
 }
 
 #portfolio-photo {
   width: 530px;
-  margin: 30px auto;
-  margin-top: 10px;
+  margin: 8% auto;
+  margin-top: 3%;
   border-radius: 16px;
   border: var(--border);
 }
@@ -103,12 +106,10 @@ img {
 }
 footer {
   text-align: center;
-  padding: 30px;
 }
 
 span {
   margin-inline-start: 42%;
-  margin-top: 30px;
 }
 
 span a {
@@ -134,13 +135,11 @@ img:hover {
   strong {
     font-size: 44px;
     padding: 0;
-    margin: 0;
-    margin-inline-start: 30px;
   }
   h1 {
     font-size: 38px;
     margin: 0;
-    margin-inline-start: 10px;
+    margin-inline-start: 5%;
   }
 
   h2 {
@@ -165,11 +164,9 @@ img:hover {
   }
   #work-button,
   #contact-button {
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 25px;
     display: block;
-    width: 200px;
+    width: 60%;
   }
 
   footer {
