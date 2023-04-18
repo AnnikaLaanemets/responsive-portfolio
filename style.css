@@ -43,8 +43,7 @@ strong {
 h1 {
   font-family: var(--heading);
   font-size: 46px;
-  padding: 7px;
-  margin: 4%;
+  margin: 6%;
 }
 
 h2 {
