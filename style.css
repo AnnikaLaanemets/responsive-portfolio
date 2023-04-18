@@ -1,19 +1,19 @@
 :root {
   --primary-color: #4b2d51;
   --gradient: linear-gradient(102deg, #cee6b4 57%, #198754 102%);
-  --border: 14px solid #4b2d51;
+  --border: 10px solid #4b2d51;
   --heading: "Nunito", sans-serif;
 }
 
 body {
   background: linear-gradient(
     90deg,
-    rgb(255, 255, 240) 59%,
-    rgb(158, 204, 164) 59%,
-    rgb(158, 204, 164) 60%,
-    rgb(255, 255, 240) 60%,
-    rgb(255, 255, 240) 63%,
+    rgb(255, 255, 240) 62%,
+    rgb(158, 204, 164) 62%,
     rgb(158, 204, 164) 63%,
+    rgb(255, 255, 240) 63%,
+    rgb(255, 255, 240) 65%,
+    rgb(158, 204, 164) 65%,
     #198754 102%
   );
   font-family: "Clara", sans-serif;
@@ -82,9 +82,9 @@ form {
 }
 
 #portfolio-photo {
-  width: 95%;
+  width: 98%;
   margin-inline-start: 10%;
-  border-radius: 14px;
+  border-radius: 10px;
   border: var(--border);
 }
 
@@ -146,10 +146,10 @@ img:hover {
   p {
     padding: 25px;
   }
-
   #portfolio-photo {
-    margin-inline-start: 2%;
+    margin-inline-start: auto;
   }
+
   img {
     display: block;
     margin: 0;
