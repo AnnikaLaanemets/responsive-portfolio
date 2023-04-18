@@ -1,7 +1,8 @@
 :root {
   --primary-color: #4b2d51;
   --gradient: linear-gradient(102deg, #cee6b4 57%, #198754 102%);
-  --border: 20px solid #4b2d51;
+  --border: 14px solid #4b2d51;
+  --heading: "Nunito", sans-serif;
 }
 
 body {
@@ -26,14 +27,6 @@ body {
   background: var(--gradient);
 }
 
-.container {
-  max-width: 100%;
-}
-
-.row {
-  margin: 0;
-}
-
 nav {
   width: 50%;
   float: right;
@@ -48,32 +41,30 @@ strong {
 }
 
 h1 {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--heading);
   font-size: 46px;
   padding: 7px;
-  margin: 3%;
-  margin-inline-start: 13%;
+  margin: 4%;
 }
 
 h2 {
-  font-family: "Nunito", sans-serif;
-  font-size: 46px;
+  font-family: var(--heading);
+  font-size: 40px;
   padding: 20px;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 24px;
   color: rgba(0, 0, 0, 0.5);
   padding: 20px;
 }
 p {
   font-size: 22px;
   line-height: 1.6;
-  padding: 5px 60px;
 }
 
 button {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--heading);
 }
 
 form {
@@ -92,10 +83,9 @@ form {
 }
 
 #portfolio-photo {
-  width: 530px;
-  margin: 8% auto;
-  margin-top: 3%;
-  border-radius: 16px;
+  width: 95%;
+  margin-inline-start: 10%;
+  border-radius: 14px;
   border: var(--border);
 }
 
@@ -151,7 +141,6 @@ img:hover {
   }
 
   h3 {
-    font-size: 22px;
     margin-bottom: 20px;
   }
 
@@ -160,7 +149,7 @@ img:hover {
   }
 
   #portfolio-photo {
-    width: 90%;
+    margin-inline-start: 2%;
   }
   img {
     display: block;
