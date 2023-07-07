@@ -1,8 +1,12 @@
 :root {
   --primary-color: #4b2d51;
   --gradient: linear-gradient(102deg, #cee6b4 57%, #198754 102%);
-  --border: 10px solid #4b2d51;
+  --border: 7px solid #4b2d51;
   --heading: "Nunito", sans-serif;
+}
+
+.container {
+  padding: 10px;
 }
 
 body {
@@ -41,13 +45,13 @@ strong {
 
 h1 {
   font-family: var(--heading);
-  font-size: 46px;
-  margin: 6%;
+  font-size: 28px;
+  margin: 20px;
 }
 
 h2 {
   font-family: var(--heading);
-  font-size: 40px;
+  font-size: 32px;
   padding: 20px;
 }
 
@@ -57,7 +61,7 @@ h3 {
   padding: 20px;
 }
 p {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.6;
   padding: 2px;
 }
@@ -67,30 +71,33 @@ button {
 }
 
 form {
-  max-width: 80%;
+  max-width: 96%;
   margin: 0 auto;
 }
 
 #work-button {
-  font-size: 24px;
+  font-size: 20px;
   box-shadow: 11px 18px 58px 15px rgba(31, 111, 72, 0.2);
-  margin-inline-start: 12%;
+  margin-inline-start: 15%;
 }
 #contact-button {
-  margin-inline-start: 25%;
-  font-size: 24px;
+  margin-inline-start: 10%;
+  font-size: 20px;
 }
 
 #portfolio-photo {
-  width: 98%;
-  margin: 2%;
+  width: 400px;
+  margin: 2% auto;
   border-radius: 10px;
   border: var(--border);
 }
 
 #barre,
+#vanilla-weather,
+#clock,
+#travel,
 #weather,
-#clock {
+#dictionary {
   text-align: center;
 }
 img {
@@ -102,13 +109,14 @@ footer {
 }
 
 span {
-  margin-inline-start: 40%;
+  text-align: center;
 }
 
 span a {
-  font-size: 20px;
+  font-size: 17px;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
 }
 
 .fa-brands {
@@ -126,17 +134,17 @@ img:hover {
     background: var(--gradient);
   }
   strong {
-    font-size: 44px;
+    font-size: 40px;
     padding: 0;
   }
   h1 {
-    font-size: 38px;
+    font-size: 28px;
     margin: 0;
     margin-inline-start: 5%;
   }
 
   h2 {
-    font-size: 34px;
+    font-size: 26px;
   }
 
   h3 {
@@ -144,10 +152,17 @@ img:hover {
   }
 
   p {
-    padding: 25px;
+    padding: 15px;
   }
   #portfolio-photo {
+    width: 90%;
     margin-inline-start: auto;
+  }
+  .row {
+    margin: 0;
+  }
+  .col-lg-6 {
+    padding: 0;
   }
 
   img {
@@ -164,6 +179,7 @@ img:hover {
 
   footer {
     padding: 0;
+    margin: 0;
   }
   span {
     margin-inline-start: 15%;
