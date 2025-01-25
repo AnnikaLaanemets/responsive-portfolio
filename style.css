@@ -1,7 +1,7 @@
 :root {
   --primary-color: #4b2d51;
   --gradient: linear-gradient(102deg, #cee6b4 57%, #198754 102%);
-  --border: 7px solid #4b2d51;
+  --border: 5px solid #4b2d51;
   --heading: "Nunito", sans-serif;
 }
 
@@ -126,7 +126,7 @@ span a {
 }
 
 img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 @media (max-width: 992px) {
